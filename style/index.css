@@ -89,7 +89,7 @@ section h1 {
 section p {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 500;
     color: #544837;
 }
 
@@ -176,9 +176,9 @@ section p {
 
 .section-2-box p {
     font-family: 'Poppins', sans-serif;
-    color: #2F281E;
+    color: #544837;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -205,14 +205,15 @@ section p {
     width: 1110px;
     margin: 0 auto;
     height: 573px;
+    margin-top: 100px;
 }
 
 .section-3 p {
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 16px;
-    color: #2F281E;
-    padding: 20px 0;
+    color: #544837;
+    line-height: 1.5;
 }
 
 .section-3 h3 {
@@ -220,6 +221,7 @@ section p {
     font-weight: bold;
     font-size: 36px;
     color: #2F281E;
+    padding-bottom: 25px;
 }
 
 .section-3 h5 {
@@ -227,6 +229,8 @@ section p {
     font-weight: bold;
     font-size: 16px;
     color: #2F281E;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .section-3-text {
@@ -253,9 +257,13 @@ section p {
 
 .section-4 p {
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 16px;
-    color: #2F281E;
+    color: #544837;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .section-4 h3 {
@@ -263,4 +271,60 @@ section p {
     font-weight: bold;
     font-size: 36px;
     color: #2F281E;
+    padding-bottom: 30px;
+}
+
+.section-4-text {
+    width: 486px;
+    height: 427px;
+}
+
+.section-4-text img {
+    padding-right: 30px;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin: 0 auto;
+    height: 609px;
+    margin-top: 150px;
+}
+
+#section-5-image {
+    height: 609px;
+    width: 542px;
+}
+
+.section-5-text {
+    height: 609px;
+    width: 486px;
+    margin-top: 50px;
+}
+
+.section-5 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+    line-height: 1.5;
+}
+
+.section-5 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #2F281E;
+    padding-bottom: 25px;
+}
+
+.section-5 h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2F281E;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
