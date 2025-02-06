@@ -328,3 +328,87 @@ section p {
     padding-top: 25px;
     padding-bottom: 15px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 308px;
+    width: 1109px;
+    margin: 0 auto;
+    border-top: 1px solid #BCD0E5;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+.footer-list {
+    height: 205px;
+    width: 118px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.footer li {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 10px; 
+}
+
+.footer a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #544837;
+    font-size: 16px;
+}
+
+.footer-logo {
+    padding-top: 100px;
+}
+
+.footer h3 {
+    color: #173A56;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-buttons {
+    height: 199px;
+    width: 325px;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#footer-sign-up-button {
+    height: 39px;
+    width: 131px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#footer-empty-bar {
+    border: 1px solid #BCD0E5;
+    width: 325px;
+    height: 48px;
+    color: white;
+    background-color: white;
+}
